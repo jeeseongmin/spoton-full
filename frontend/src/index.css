@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: "Noto Sans KR";
+    src: url("./assets/font/NotoSansKR-Regular.ttf");
+  }
+
+  * {
+    @apply font-sans;
+    @apply scrollbar-hide;
+  }
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+#root {
+  height: 100%;
+  width: 100%;
+}
